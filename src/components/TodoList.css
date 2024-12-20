@@ -1,0 +1,196 @@
+/* General Styles for the Page */
+/* General Styles for the Page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("C:/Users/karthika/Desktop/todo-app/src/components/premium_photo-1683309567810-4d232ee83d2f.avif") no-repeat center center/cover;
+  }
+  
+  /* Main Todo List Container */
+  .todo-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  /* Search Bar Styles */
+  .search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-input {
+    padding: 12px 16px; /* Increased padding for larger input */
+    font-size: 1.2rem; /* Increased font size */
+    width: 85%; /* Increased width to occupy more space */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+  }
+  
+  /* Add Todo Button */
+  .add-todo-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+  
+  .add-todo-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Todo Form Styling - Making input larger */
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  input[type="text"] {
+    padding: 12px 16px;
+    font-size: 1.2rem; /* Increased font size for better visibility */
+    width: 100%; /* Makes the input field span the entire container */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px; /* Space between input and button */
+  }
+  
+  button[type="submit"] {
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Todo List Styles */
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Todo Item Styles */
+  .todo-item {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    color: #555;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .todo-item:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Todo Content Styling */
+  .todo-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-text {
+    flex-grow: 1;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 6px 12px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .edit-btn {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #e68900;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Todo Edit Styling */
+  .todo-edit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .edit-input {
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .save-btn,
+  .cancel-btn {
+    padding: 8px 12px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .save-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #d32f2f;
+  }
+  

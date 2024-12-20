@@ -1,0 +1,68 @@
+/* Employee List Container */
+.employee-container {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;  /* Ensures child elements don't overflow */
+  }
+  
+  /* Heading Style */
+  .employee-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  /* List Styles */
+  .employee-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 400px;  /* Set max height to make the list scrollable */
+    overflow-y: auto;  /* Allows vertical scrolling */
+    margin-top: 20px;
+  }
+  
+  .employee-item {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    color: #555;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .employee-item:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Name and Email Bold Styling */
+  .employee-item p {
+    font-weight: bold; /* Make text bold */
+  }
+  
+  .employee-item .name {
+    background-color: #e9f7fe;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b6e1ff;
+  }
+  
+  .employee-item .email {
+    background-color: #e9f7fe;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b6e1ff;
+    margin-top: 5px;
+  }
+  
+  
